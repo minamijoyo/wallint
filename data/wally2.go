@@ -1,14 +1,14 @@
 package main
 
 func main() {
-	Chestcrystal := 0; Griffincurse := 1; Falconwest := 2; Knightbattle := 3; Soarerjasper := 4;
-	Fishersand := 10; Dutchesssilent := 11; Kittenspring := 12; Lasherpink := 13; Legsvivid := 14;
-	Guardianabalone := 20; Noserapid := 21; Pigrust := 22; Warlockcarnelian := 23; Ringernorth := 24;
-	Crushergold := 30; Lanternchestnut := 31; Raptornarrow := 32; Swallowcold := 33; Songbald := 34;
-	Burnfuschia := 40; Spiritbald := 41; Toeprickle := 42; Graspdenim := 43; Bisonember := 44;
-	Fingerflannel := 50; Skullscythe := 51; Bugwax := 52; Skinnerrelic := 53; Biterjelly := 54;
-	Foegrove := 60; wally := 61; Serpentmirage := 62; Shakervoid := 63; Devourerbird := 64;
-	Houndpaint := 70; Finnarrow := 71; Playergray := 72; Lighterpollen := 73; Pigevening := 74;
-	Spiderbrave := 80; Mindbird := 81; Hawkspring := 82; Frightsticky := 83; Banedaffodil := 84;
-	Zebragossamer := 90; Tradergreen := 91; Herolinen := 92; Browred := 93; Faceprism := 94;
+	terrierwhip := 0; crownlime := 1; spikepattern := 2; batsun := 3; collargrove := 4;
+	batmorning := 10; boaswamp := 11; stormnettle := 12; hornberyl := 13; pythonhollow := 14;
+	witchpine := 20; jaguarpond := 21; faceclover := 22; whipflower := 23; piratelong := 24;
+	bowpollen := 30; lordboulder := 31; duckclear := 32; leopardgreat := 33; spiritbubble := 34;
+	ripperslow := 40; lanternwild := 41; pixiedisco := 42; crushercrocus := 43; weedlaser := 44;
+	wolverinecrack := 50; seercyber := 51; stingerlily := 52; lashersprinkle := 53; deathsun := 54;
+	saversnow := 60; geckomad := 61; crowshadow := 62; shakerlaser := 63; crestspot := 64;
+	swallowcarnation := 70; playerheavy := 71; racergossamer := 72; wally := 73; footsatin := 74;
+	gullsavage := 80; palmbitter := 81; parrotcopper := 82; raverwhite := 83; wyrmvolcano := 84;
+	slayerplume := 90; speakerfoul := 91; headspectrum := 92; roverfossil := 93; biteiris := 94;
 }
