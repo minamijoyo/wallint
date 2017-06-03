@@ -20,20 +20,20 @@ func main() {
 
 type file struct {
 	astFile  *ast.File
-	fset     *token.FileSet
+	fileSet  *token.FileSet
 	filename string
 }
 
 func lint(filename string) error {
-	fset := token.NewFileSet()
-	astFile, err := parser.ParseFile(fset, filename, nil, 0)
+	fileSet := token.NewFileSet()
+	astFile, err := parser.ParseFile(fileSet, filename, nil, 0)
 	if err != nil {
 		return errors.Wrapf(err, "failed to parse file: %s", filename)
 	}
 
 	f := &file{
 		astFile:  astFile,
-		fset:     fset,
+		fileSet:  fileSet,
 		filename: filename,
 	}
 
@@ -69,7 +69,7 @@ func (w walker) Visit(node ast.Node) ast.Visitor {
 func (f *file) check(ident *ast.Ident) {
 	name := ident.Name
 	if keywords[name] {
-		pos := f.fset.Position(ident.Pos())
+		pos := f.fileSet.Position(ident.Pos())
 		text := fmt.Sprintf("%s was found\n", name)
 		fmt.Printf("%v: %s", pos, text)
 	}
