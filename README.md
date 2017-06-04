@@ -2,7 +2,7 @@
 A minimum golint example to find variables named wally.
 
 ```
-$ go get -u https://github.com/minamijoyo/wallint
+$ go get -u github.com/minamijoyo/wallint
 ```
 
 ```go
